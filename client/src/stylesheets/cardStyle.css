@@ -1,0 +1,55 @@
+/* * {
+  outline: 1px dashed red;
+} */
+
+#card-container {
+    background-color: #0087bb !important;
+    /* add shadow effect to card */
+    box-shadow: 0 0 15px 5px grey;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    border: 1.5px solid black;
+    height: 100%;
+}
+
+#card-container .card-title, h4 {
+  color: white;
+}
+
+/* card image */
+.card-img-top {
+  height: 40%;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+  #icons img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+  }
+
+  /* Add visual effect when the mouse hover over the github or open in new tab icons */
+  #icons img:hover {
+    opacity: 1.0;
+  }
+
+#card-container #proj-techs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+
+  #card-container #proj-techs img {
+    width: 10%;
+  }
+
+#card-container .card-body .card-text {
+  font-size: 1.2rem;
+  border-radius: 3px;
+  background-color: white;
+  padding: 0 1%;
+}

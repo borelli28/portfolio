@@ -1,0 +1,87 @@
+/* * {
+  outline: 1px dashed red;
+} */
+
+#contact {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#contact nav {
+  width: 100%;
+}
+
+/* reset the nav */
+#contact nav #nav {
+  margin-left: 0;
+  /* reset nav bar shadow */
+  box-shadow: 0 0 10px 3px black;
+}
+
+#contact nav #mobile-nav {
+  /* reset nav bar shadow */
+  box-shadow: 0 0 10px 3px black;
+}
+
+#contact #contact-form {
+  width: 70%;
+  font-size: 1.5rem;
+}
+
+#contact-form #name, #email {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1% 0;
+}
+
+  #contact-form #name label, #email label {
+    width: 100%;
+  }
+
+  #contact-form #name input, #email input {
+    width: 50%;
+  }
+
+#contact #contact-form .btn-primary {
+  background-color: #0087bb !important;
+  border-color: #0087bb !important;
+  margin-top: 2%;
+  width: 15%;
+  font-size: 1.2rem;
+}
+
+#contact #submission-alerts {
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+#contact #contact-form #required-mark {
+  color: red;
+}
+
+/* Mobile @950 */
+@media only screen and (max-width: 900px) {
+
+  /* hide resume tab in mobile */
+  #nav #resume {
+    display: none;
+  }
+
+  #contact-form #name input, #email input {
+    width: 100%;
+  }
+
+  #contact #contact-form .btn-primary {
+    background-color: #0087bb;
+    margin: 10% 0;
+    width: 70%;
+  }
+
+  #contact #submission-alerts {
+    width: 70%;
+    font-size: 1.0rem;
+  }
+}

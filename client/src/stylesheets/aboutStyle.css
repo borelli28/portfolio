@@ -1,0 +1,39 @@
+/* * {
+  outline: 1px dashed red;
+} */
+
+#about-me {
+  color: white;
+  margin: 5% 0 1%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#about-me h1 {
+  width: 100%;
+}
+
+#about-me p {
+  margin-top: 1%;
+  font-size: 24px;
+  width: 70%;
+}
+
+#about-me #github img{
+  width: 18%;
+  /* margin-right: 5%; */
+}
+
+#about-me #links {
+  display: flex;
+  align-items: center;
+}
+
+#about-me #links a {
+  opacity: 0.5;
+}
+
+#about-me #links a:hover {
+  opacity: 1.0;
+}

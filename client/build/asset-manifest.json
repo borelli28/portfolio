@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14e4ff5b.chunk.css",
+    "main.js": "/static/js/main.ea3d7d14.chunk.js",
+    "main.js.map": "/static/js/main.ea3d7d14.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.da7979fb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.da7979fb.js.map",
+    "static/css/2.4f8976c6.chunk.css": "/static/css/2.4f8976c6.chunk.css",
+    "static/js/2.c5bed667.chunk.js": "/static/js/2.c5bed667.chunk.js",
+    "static/js/2.c5bed667.chunk.js.map": "/static/js/2.c5bed667.chunk.js.map",
+    "static/js/3.7ae9a728.chunk.js": "/static/js/3.7ae9a728.chunk.js",
+    "static/js/3.7ae9a728.chunk.js.map": "/static/js/3.7ae9a728.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4f8976c6.chunk.css.map": "/static/css/2.4f8976c6.chunk.css.map",
+    "static/css/main.14e4ff5b.chunk.css.map": "/static/css/main.14e4ff5b.chunk.css.map",
+    "static/js/2.c5bed667.chunk.js.LICENSE.txt": "/static/js/2.c5bed667.chunk.js.LICENSE.txt",
+    "static/media/GitHub_Logo_White.6149aa5c.png": "/static/media/GitHub_Logo_White.6149aa5c.png",
+    "static/media/css.0ae1ef13.webp": "/static/media/css.0ae1ef13.webp",
+    "static/media/homeStyle.css": "/static/media/dot-grid.c18d167e.png",
+    "static/media/expressjs.343cc889.png": "/static/media/expressjs.343cc889.png",
+    "static/media/react-icon.f2cd161c.png": "/static/media/react-icon.f2cd161c.png",
+    "static/media/spring-trans.3b9dd2cf.png": "/static/media/spring-trans.3b9dd2cf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da7979fb.js",
+    "static/css/2.4f8976c6.chunk.css",
+    "static/js/2.c5bed667.chunk.js",
+    "static/css/main.14e4ff5b.chunk.css",
+    "static/js/main.ea3d7d14.chunk.js"
+  ]
+}

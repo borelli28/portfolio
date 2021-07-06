@@ -1,0 +1,29 @@
+
+#mobile-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  /* add shadow effect to nav bar */
+  box-shadow: 0 0 3px 3px grey;
+}
+
+#mobile-nav #navbarToggleExternalContent {
+  width: 100%;
+  margin: 0;
+}
+
+#mobile-nav #buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+#mobile-nav button {
+  color: white;
+  font-size: 18px;
+}
+
+/* Color of buttons */
+#mobile-nav .btn-dark {
+  background-color: #0087bb;
+}

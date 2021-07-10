@@ -32,7 +32,7 @@ export default props => {
           <div id="profile">
             <div id="name&title">
               <h2>Armando Borelli</h2>
-              <h3>Software Developer(Full Stack)</h3>
+              <h3>Software Developer</h3>
             </div>
 
             <div id="langTech">
@@ -109,7 +109,7 @@ export default props => {
             <div id="name&title">
               <p>My Name is, </p>
               <h2>Armando Borelli</h2>
-              <h3>Software Developer(Full Stack)</h3>
+              <h3>Software Developer</h3>
             </div>
 
             <div id="lang&tech">

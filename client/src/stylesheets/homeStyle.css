@@ -62,6 +62,37 @@ body {
   margin: 1% 0;
 }
 
+/* make icons in footer white */
+footer #links #linkedInIcon, #fileCopyIcon, #gitHubIcon {
+  color: white !important;
+  padding: 10%;
+}
+
+footer #links {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% 0;
+}
+
+footer #links-text {
+  color: white;
+
+}
+
+/* add border to icons and some other things */
+footer #links div {
+  box-shadow: 0 0 5px 1px grey;
+  border-radius: 50%;
+}
+
+/* add grow visual effect to footer icons when hovered on */
+footer #links div:hover {
+  transform: scale(1.2);
+}
+
+#desktop-div footer #links {
+  margin-left: 15%;
+}
 
 /* MOBILE */
 
@@ -158,22 +189,4 @@ body {
 /* hide about me section in mobile */
 #mobile-div #about-me p, h1 {
   display: none;
-}
-
-/* makes the github icon bigger in mobile in portrait mode */
-@media screen and (max-width: 480px) {
-  #mobile-div #about-me #links #github img {
-    width: 45%;
-  }
-}
-
-
-/* Resets the github & linkedin icon onHover visual effect */
-#mobile-div #about-me #links a {
-  opacity: 1.0;
-}
-
-/* add some margin between the github and linked icon */
-#mobile-div #about-me #links #github {
-  margin-right: 10%;
 }

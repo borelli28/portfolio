@@ -29,11 +29,3 @@
   display: flex;
   align-items: center;
 }
-
-#about-me #links a {
-  opacity: 0.5;
-}
-
-#about-me #links a:hover {
-  opacity: 1.0;
-}

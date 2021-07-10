@@ -3,13 +3,14 @@
 } */
 
 #card-container {
-    background-color: #0087bb !important;
-    /* add shadow effect to card */
-    box-shadow: 0 0 15px 5px grey;
-    border-radius: 7px;
-    font-size: 1.1rem;
-    border: 1.5px solid black;
-    height: 100%;
+  background-color: #0087bb !important;
+  /* add shadow effect to card */
+  box-shadow: 0 0 15px 5px grey;
+
+  border-radius: 7px;
+  font-size: 1.1rem;
+  border: 1.5px solid black;
+  height: 100%;
 }
 
 #card-container .card-title, h4 {
@@ -26,16 +27,17 @@
   justify-content: space-around;
 }
 
-  #icons img {
-    height: 100%;
-    width: 100%;
-    opacity: 0.6;
-  }
+#icons img {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 5px 1px white;
+  border-radius: 50%;
+}
 
-  /* Add visual effect when the mouse hover over the github or open in new tab icons */
-  #icons img:hover {
-    opacity: 1.0;
-  }
+/* Add visual effect when the mouse hover over the github or open in new tab icons */
+#icons img:hover {
+  transform: scale(1.3);
+}
 
 #card-container #proj-techs {
   display: flex;
@@ -43,9 +45,9 @@
   margin-bottom: 2%;
 }
 
-  #card-container #proj-techs img {
-    width: 10%;
-  }
+#card-container #proj-techs img {
+  width: 10%;
+}
 
 #card-container .card-body .card-text {
   font-size: 1.2rem;

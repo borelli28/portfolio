@@ -6,6 +6,9 @@ import AboutMe from '../components/AboutMe';
 import ProjCardOne from '../components/ProjCardOne';
 import ProjCardTwo from '../components/ProjCardTwo';
 import ProjCardThree from '../components/ProjCardThree';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import FileCopyIcon from '@material-ui/icons/FileCopy';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default props => {
   const { width, setWidth } = props;
@@ -88,7 +91,13 @@ export default props => {
             </div>
           </div>
         </main>
-        <AboutMe />
+        <footer>
+          <div id="links">
+            <div><a id="linkedIn" href="https://www.linkedin.com/in/armando-borelli/" target="_blank" rel="noopener noreferrer"><LinkedInIcon id="linkedInIcon" color="default" fontSize="large"/></a></div>
+            <div><a id="github" href="https://github.com/Borelli28" target="_blank" rel="noopener noreferrer"><GitHubIcon id="gitHubIcon" fontSize="large" color="default"/></a></div>
+            <div><a id="resume-download-icon" href="https://portfolio-web-proj-vids.s3.amazonaws.com/armando-borelli-resume-aws.pdf" download="Armando_Borelli-resume" target="_blank" rel="noopener noreferrer"><FileCopyIcon id="fileCopyIcon" fontSize="large" color="default"/></a></div>
+          </div>
+        </footer>
       </div>
     )
   // Desktop layout
@@ -158,7 +167,13 @@ export default props => {
             </div>
           </div>
         </main>
-        <AboutMe />
+        <footer>
+          <div id="links">
+            <div><a id="linkedIn" href="https://www.linkedin.com/in/armando-borelli/" target="_blank" rel="noopener noreferrer"><LinkedInIcon id="linkedInIcon" color="default" fontSize="large"/></a></div>
+            <div><a id="github" href="https://github.com/Borelli28" target="_blank" rel="noopener noreferrer"><GitHubIcon id="gitHubIcon" fontSize="large" color="default"/></a></div>
+            <div><a id="resume-download-icon" href="https://portfolio-web-proj-vids.s3.amazonaws.com/armando-borelli-resume-aws.pdf" download="Armando_Borelli-resume" target="_blank" rel="noopener noreferrer"><FileCopyIcon id="fileCopyIcon" fontSize="large" color="default"/></a></div>
+          </div>
+        </footer>
       </div>
     )
   }

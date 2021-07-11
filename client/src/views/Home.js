@@ -93,6 +93,7 @@ export default props => {
         </main>
         <footer>
           <div id="links">
+            <span id="contact-me-text">Social and Resume:</span>
             <div><a id="linkedIn" href="https://www.linkedin.com/in/armando-borelli/" target="_blank" rel="noopener noreferrer"><LinkedInIcon id="linkedInIcon" color="default" fontSize="large"/></a></div>
             <div><a id="github" href="https://github.com/Borelli28" target="_blank" rel="noopener noreferrer"><GitHubIcon id="gitHubIcon" fontSize="large" color="default"/></a></div>
             <div><a id="resume-download-icon" href="https://portfolio-web-proj-vids.s3.amazonaws.com/armando-borelli-resume-aws.pdf" download="Armando_Borelli-resume" target="_blank" rel="noopener noreferrer"><FileCopyIcon id="fileCopyIcon" fontSize="large" color="default"/></a></div>
@@ -169,6 +170,7 @@ export default props => {
         </main>
         <footer>
           <div id="links">
+            <span id="contact-me-text">Social and Resume:</span>
             <div><a id="linkedIn" href="https://www.linkedin.com/in/armando-borelli/" target="_blank" rel="noopener noreferrer"><LinkedInIcon id="linkedInIcon" color="default" fontSize="large"/></a></div>
             <div><a id="github" href="https://github.com/Borelli28" target="_blank" rel="noopener noreferrer"><GitHubIcon id="gitHubIcon" fontSize="large" color="default"/></a></div>
             <div><a id="resume-download-icon" href="https://portfolio-web-proj-vids.s3.amazonaws.com/armando-borelli-resume-aws.pdf" download="Armando_Borelli-resume" target="_blank" rel="noopener noreferrer"><FileCopyIcon id="fileCopyIcon" fontSize="large" color="default"/></a></div>

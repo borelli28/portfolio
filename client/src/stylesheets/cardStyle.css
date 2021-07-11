@@ -4,6 +4,7 @@
 
 #card-container {
   background-color: #0087bb !important;
+  background: linear-gradient(to right, #0087bb, #0090bb);
   /* add shadow effect to card */
   box-shadow: 0 0 15px 5px grey;
 

@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: black;
+  background-color: #0087bb;
+  background: linear-gradient(to right, #0087bb, #0090bb);
   /* add shadow effect to nav bar */
   box-shadow: 0 0 3px 3px grey;
 }

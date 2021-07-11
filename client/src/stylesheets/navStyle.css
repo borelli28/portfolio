@@ -9,6 +9,7 @@
   padding: 1%;
   border-radius: 5px;
   background-color: #0087bb;
+  background: linear-gradient(to right, #0087bb, #0090bb);
   margin-left: 0.5%;
   /* add shadow effect to nav bar */
   box-shadow: 0 0 5px 5px grey;
@@ -26,5 +27,5 @@
 
 /* Visual effect for nav button on hover */
 #nav .btn-dark:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }

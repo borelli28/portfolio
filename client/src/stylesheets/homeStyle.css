@@ -15,9 +15,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  color: black;
-  background-image: url("../resources/images/dot-grid.png");
-  background-size: auto;
+  background-color: white;
 }
 
 #desktop #profile {
@@ -70,7 +68,7 @@ footer #links #linkedInIcon, #fileCopyIcon, #gitHubIcon {
 
 footer #links {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   margin: 1% 0;
 }
 
@@ -83,15 +81,21 @@ footer #links-text {
 footer #links div {
   box-shadow: 0 0 5px 1px grey;
   border-radius: 50%;
+  margin: 0 1%;
 }
 
 /* add grow visual effect to footer icons when hovered on */
 footer #links div:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 #desktop-div footer #links {
   margin-left: 15%;
+}
+
+footer #contact-me-text {
+  color: white;
+  font-size: 1.2rem;
 }
 
 /* MOBILE */
@@ -103,8 +107,7 @@ footer #links div:hover {
   justify-content: center;
   flex-wrap: wrap;
   color: black;
-  background-image: url("../resources/images/dot-grid.png");
-  background-size: auto;
+  background-color: white;
 }
 
 #mobile nav {
@@ -189,4 +192,9 @@ footer #links div:hover {
 /* hide about me section in mobile */
 #mobile-div #about-me p, h1 {
   display: none;
+}
+
+/* add margin between icons in mobile */
+#mobile-div footer #links div {
+  margin: 0 3%;
 }

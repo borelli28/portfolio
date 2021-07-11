@@ -8,7 +8,7 @@
   list-style-type: none;
   padding: 1%;
   border-radius: 5px;
-  background-color: black;
+  background-color: #0087bb;
   margin-left: 0.5%;
   /* add shadow effect to nav bar */
   box-shadow: 0 0 5px 5px grey;
@@ -21,11 +21,10 @@
 
 /* Color of buttons */
 #nav .btn-dark {
-  background-color: #0087bb;
+  background-image: url("../resources/images/dark-honeycomb.png");
 }
 
 /* Visual effect for nav button on hover */
 #nav .btn-dark:hover {
-  background-color: white;
-  color: #0087bb;
+  transform: scale(1.1);
 }

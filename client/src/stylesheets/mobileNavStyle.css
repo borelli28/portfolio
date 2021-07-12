@@ -3,8 +3,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #0087bb;
-  background: linear-gradient(to right, #0087bb, #0090bb);
+  background-color: #333232;
+  /* background: linear-gradient(to right, #0087bb, #0090bb); */
   /* add shadow effect to nav bar */
   box-shadow: 0 0 3px 3px grey;
 }
@@ -26,5 +26,6 @@
 
 /* Color of buttons */
 #mobile-nav .btn-dark {
-  background-color: #0087bb;
+  background-color: #064b6a;
+  border-color: black !important;
 }

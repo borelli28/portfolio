@@ -16,8 +16,8 @@
 /* reset the nav */
 #resume-main nav #nav {
   margin-left: 0;
-  /* reset nav bar shadow */
-  box-shadow: 0 0 10px 3px black;
+  /* add shadow effect to nav bar */
+  box-shadow: 0 0 5px 5px #202020;
 }
 
 /* mobile */

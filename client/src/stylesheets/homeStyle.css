@@ -2,8 +2,16 @@
   outline: 1px dashed red;
 } */
 
-body {
-  background-image: url("../resources/images/dark-honeycomb.png");
+/* body {
+  background-color: #333232;
+} */
+
+#desktop-div {
+  background-color: #333232;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff4040;
 }
 
 #desktop, #mobile, ul {
@@ -15,18 +23,17 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: #F8F9F8;
 }
 
 #desktop #profile {
   width: 30%;
-  background-image: url("../resources/images/dark-honeycomb.png");
+  background-color: #333232;
   color: white;
 }
 
 /* lang & tech titles */
 #desktop #profile h5 {
-  color: #0087bb;
   font-size: 32px;
   font-weight: bold;
 }
@@ -58,6 +65,10 @@ body {
   justify-content: center;
   width: 50%;
   margin: 1% 0;
+}
+
+footer {
+  background-color: #333232;
 }
 
 /* make icons in footer white */
@@ -128,7 +139,6 @@ footer #contact-me-text {
 
 /* lang & tech titles */
 #mobile #profile h5 {
-  color: #0087bb;
   font-weight: bold;
 }
 

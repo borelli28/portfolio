@@ -31,7 +31,9 @@ export default props => {
 
           <div id="profile">
             <div id="name&title">
+              <p>My Name is, </p>
               <h2>Armando Borelli</h2>
+              <p>I am a</p>
               <h3>Software Developer</h3>
             </div>
 
@@ -110,6 +112,7 @@ export default props => {
             <div id="name&title">
               <p>My Name is, </p>
               <h2>Armando Borelli</h2>
+              <p>I am a</p>
               <h3>Software Developer</h3>
             </div>
 

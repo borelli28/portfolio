@@ -2,19 +2,20 @@
   outline: 1px dashed red;
 } */
 
+h1, h2, h3, h4, h5, h6 {
+  color: #ff4040;
+}
+
 #card-container {
-  background-color: #0087bb !important;
-  background: linear-gradient(to right, #0087bb, #0090bb);
+  background-color: #064b6a !important;
+  /* background: linear-gradient(to right, #0087bb, #0090bb); */
   /* add shadow effect to card */
   box-shadow: 0 0 15px 5px grey;
 
   border-radius: 7px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   border: 1.5px solid black;
   height: 100%;
-}
-
-#card-container .card-title, h4 {
   color: white;
 }
 
@@ -50,9 +51,6 @@
   width: 10%;
 }
 
-#card-container .card-body .card-text {
+/* #card-container .card-body .card-text {
   font-size: 1.2rem;
-  border-radius: 3px;
-  background-color: white;
-  padding: 0 1%;
-}
+} */

@@ -16,8 +16,8 @@
 /* reset the nav */
 #contact nav #nav {
   margin-left: 0;
-  /* reset nav bar shadow */
-  box-shadow: 0 0 10px 3px black;
+  /* add shadow effect to nav bar */
+  box-shadow: 0 0 5px 5px #202020;
 }
 
 #contact nav #mobile-nav {
@@ -46,11 +46,15 @@
   }
 
 #contact #contact-form .btn-primary {
-  background-color: #0087bb !important;
-  border-color: #0087bb !important;
+  background-color: #064b6a  !important;
+  border-color: black !important;
   margin-top: 2%;
   width: 15%;
   font-size: 1.2rem;
+}
+
+#contact #contact-form .btn-primary:hover {
+  transform: scale(1.2);
 }
 
 #contact #submission-alerts {
@@ -75,7 +79,8 @@
   }
 
   #contact #contact-form .btn-primary {
-    background-color: #0087bb;
+    background-color: #064b6a  !important;
+    border-color: black !important;
     margin: 10% 0;
     width: 70%;
   }
